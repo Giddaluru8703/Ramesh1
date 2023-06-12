@@ -1,0 +1,15 @@
+Feature: Login into Gmail
+@smoke
+Scenario: Login into gmail with valid credentials
+
+Given user is in the login page
+When user enter valid username and password
+And clicks on signin button
+Then successfully login should happen
+@sanity
+Scenario: Login into gmail with valid credentials
+
+Given user is in the login page
+When user enter valid username and password
+And clicks on signin button
+Then successfully login should happen

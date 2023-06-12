@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
+<fullyQualifiedTypeName name="pojoClassesExample.Pojoclass1"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+<fullyQualifiedTypeName name="io.cucumber.datatable.DataTable"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+<fullyQualifiedTypeName name="xls.ShineXlsReader"/>
+<fullyQualifiedTypeName name="io.cucumber.java.After"/>
+<fullyQualifiedTypeName name="io.cucumber.java.BeforeAll"/>
+<fullyQualifiedTypeName name="io.cucumber.java.AfterAll"/>
+<fullyQualifiedTypeName name="io.cucumber.java.BeforeStep"/>
+<fullyQualifiedTypeName name="io.cucumber.java.AfterStep"/>
+<fullyQualifiedTypeName name="javaConcepts.WorkWithProperties"/>
+<fullyQualifiedTypeName name="cucumber.api.cli.Main"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="io.restassured.builder.RequestSpecBuilder"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="io.restassured.filter.log.RequestLoggingFilter"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="io.restassured.filter.log.ResponseLoggingFilter"/>
+<fullyQualifiedTypeName name="io.restassured.builder.ResponseSpecBuilder"/>
+<fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
+<fullyQualifiedTypeName name="pojoClasses.AddPlace_RequestPojo"/>
+<fullyQualifiedTypeName name="pojoClasses.Location"/>
+<fullyQualifiedTypeName name="payLoads.PayLoad"/>
+<fullyQualifiedTypeName name="io.cucumber.java.Before"/>
+<fullyQualifiedTypeName name="testBase.TestBase"/>
+<fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+<fullyQualifiedTypeName name="pojoClasses.AddPalce_ResponsePojo"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
+<fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+</qualifiedTypeNameHistroy>

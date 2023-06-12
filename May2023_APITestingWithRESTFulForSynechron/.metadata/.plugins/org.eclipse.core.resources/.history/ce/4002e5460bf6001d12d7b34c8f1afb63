@@ -1,0 +1,13 @@
+package payLoads;
+
+import pojoClasses.AddPlace_RequestPojo;
+
+public class PayLoad {
+
+	
+	public static void addPlacePayLoad(){
+		AddPlace_RequestPojo pcr=new AddPlace_RequestPojo();
+		
+		
+	}
+}

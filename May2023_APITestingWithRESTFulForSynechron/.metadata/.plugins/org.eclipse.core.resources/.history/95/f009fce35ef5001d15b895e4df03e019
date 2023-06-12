@@ -1,0 +1,29 @@
+Feature: Login into Gmail
+
+Scenario: Login into gmail with valid credentials
+
+Given user is in the login page
+When user enter valid username and password
+And clicks on signin button
+Then successfully login should happen
+
+Scenario: Login into gmail with valid credentials1
+
+Given user is in the login page
+When user enter valid username as "Name1" and password as "Pwd1"
+And clicks on signin button
+Then successfully login should happen
+
+Scenario: Login into gmail with valid credentials2
+
+Given user is in the login page
+When user enter valid username as "Name2" and password as "Pwd2"
+And clicks on signin button
+Then successfully login should happen
+
+Scenario: Login into gmail with valid credentials3
+
+Given user is in the login page
+When user enter valid username as "Name3" and password as "Pwd3"
+And clicks on signin button
+Then successfully login should happen

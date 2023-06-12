@@ -1,0 +1,14 @@
+package javaConcepts;
+
+public class EscapeChar {
+
+	public static void main(String[] args) {
+	
+		
+		String str="My favourite book is \"Ramyan\"";
+		System.out.println(str);
+
+	}
+
+}
+//My favourite book is "Ramayan"

@@ -1,0 +1,384 @@
+How to over ride jar version through cmd?
+can we use wild card in dependencies?
+
+https://cucumber.github.io/cucumber-eclipse-update-site-snapshot/
+API testing
+-------------
+
+Why api required?
+
+API enables communication and data exchange between two seperate software systems
+
+1. Create an API communicate and data exchange for two hardware - communication between monitor and keyboard -com APIs
+2. APIs communicate between two systems over a networks - WebServices APIs
+
+
+All webServices are APIs but not all APIs are webservices
+
+
+Why API testing Required?
+
+1. Early detetion of defects minimizes the cost of the project
+2. Execution of API testCases takes less time compare to GUI testcases
+3. Without API testing GUI tesing gives more issues- more issues more time to resolve---> increase cost of the project
+
+
+2 types of WebServices
+
+1. SOAP WebServices (Simple Object Access protocol) -old
+2. REST Ful WebServices (REprestataional State Transfer ) -99%
+
+API testing Types:
+1. Functional and Behaviour testing
+2. Performance Testing and Reliablity testing
+3. Security testing
+
+
+API Testing Tools
+-----------------
+
+1. POSTMan - Just to check functionality of APIs - REST Ful APIs
+2. REST Assured - Library(Functionality and Behaviour)
+3. SOAP UI - SOAP servics and REST Services
+4. Jmeter -Load Testing
+
+
+REST APIs Requests / Http Requests - CRUD
+----------------------------------------
+1. GET - Retrive information from the server(R)
+2. POST - Create a REST API Resource( booking ticket, adding some information to db) (C)
+3. PUT - Update a REST API resource(U)
+4. DELETE - Delete REST API resource
+
+
+C- Create (POST)
+R- GET 
+U- PUT
+D -Delete
+
+1. API contract document
+
+ a. EndPoint /URI 
+
+   URI -Uniform Resource Identifier
+
+	i) Base uri -https://www.makemytrip.com - servername
+    ii) Resources -/hotels/hotel-listing/
+    iii)  parameters
+                 a. path parameter
+                 b. query parameter -checkin=05172023&city=CTGOI&checkout=05182023&roomStayQualifier=2e0e&locusId=CTGOI&country=IN&locusType=city&searchText=Goa&regionNearByExp=3
+
+https://www.makemytrip.com/hotels/hotel-listing/?checkin=05172023&city=CTGOI&checkout=05182023&roomStayQualifier=2e0e&locusId=CTGOI&country=IN&locusType=city&searchText=Goa&regionNearByExp=3
+
+
+
+https://www.bing.com
+/images/search
+q=images&form=HDRSC3&first=1
+https://www.google.com/search?q=images&sxsrf=APwXEdeICWvXdb7oLESZBO1AhnhlVuMsdQ:1684211743953&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj99-XVgfn-AhU77TgGHeYdBaUQ_AUoAXoECAEQAw&biw=1482&bih=746&dpr=1.25#imgrc=3du_EqKvbNmtvM
+
+Base uri---->https://www.dreamstime.com
+
+
+Resource --->photos-images
+path parameter--->nature.html
+
+https://www.google.com
+https://www.google.com/doodles
+https://www.google.com/doodles/thailand-national-elections-2023
+
+2. API Request-> GET , POST, PUT , DELETE
+
+3. Content-Type: Specifies that what type of Data an API endpoint will understand
+              Ex: Application/json
+                  Application/xml
+                  X-www-form-urlEncoded
+
+
+3319240efff3f1d38eb652f1ee0cacf4
+
+
+Rest Full APi
+
+Maven- Build tool
+
+
+
+Maven -Build tool
+-------------------
+1. Creating jar/war file is an easy task
+2. Upgrading or down grading jar files is an easy task
+3. One Project for both developers and testing
+
+
+TestNG - Test Next Generation
+-----------------------------------
+
+REST APis -Library 
+
+Junit/TestNG  - Functionality and Behaviour 
+Cucumber  -BDD - user Acceptence Testing
+(Cucumber + Junit/Testing = Functionality and Behavour testing)
+
+
+@Test, Assertions
+
+
+1. TestNG plugin eclipse
+2. Add Testng jar file to maven project
+
+
+dependencies for Testng
+
+1. @Test
+
+Assertions- is a feature in testng where you can compare exected values with actual values
+  Both matching---pass
+  Both mis-matching -Fail
+
+2 types of assertions in TestNG
+
+a) Hard Assert
+b) SoftAssert
+
+
+
+Setup Environment for REST API Testing
+--------------------------------------
+1. TestNG dependencies
+2. REST assured Dependencies
+3. Hamcrest dependencies
+
+
+
+CheckList
+--------------
+1. SoftAssert for response body
+2. Get, put and delete
+3. Json parsing
+4. pojo classse
+5. Library
+6. cucumber- all concepts with dummy code.
+
+
+{"status":"OK","place_id":"5736cebd9e2360756bce2d508af46e40","scope":"APP","reference":"17c9d13fc6acd7d1826169203e123b1b17c9d13fc6acd7d1826169203e123b1b","id":"17c9d13fc6acd7d1826169203e123b1b"}
+
+
+{
+"place_id":place_id,
+"address":"70 Summer walk, USA",
+"key":"qaclick123"
+}
+
+
+
+{
+"dashboard":{
+             "purchaseAmount":910,
+             "website":"skntechsolution.org"
+             },
+"courses":[
+             {
+                 "title":"Selenium Python",
+                  "price":50,
+                  "copies":6
+			},
+             {
+                 "title":"Cypress",
+                  "price":40,
+                  "copies":4
+			},
+             {
+                 "title":"RPA",
+                  "price":45,
+                  "copies":10
+			}  
+          ]
+}
+1. print number of courses returned by API
+2. print purchase amount
+3. print title of first course
+4. print all courses title and their respective prices
+5. print number of copies sold by RPA courses
+6. verify if sum of all course price matches with purchase amount
+
+
+
+Serialization and Deserialization - POJO classes in java
+
+POJO - Plain Old java Object class
+
+Setters and Getters in java
+
+
+
+Jackson data bind
+Gson
+
+
+
+
+converting json response to java object called deserialization
+converting java object to json request called serialization
+
+
+
+RequestSpecBuilder
+ResponseSpecBuilder
+how to create log file
+
+
+
+Checklist-Day3
+-----------------
+CreateLogFile
+
+Cucumber concepts-BDD
+
+Designing FrameWork
+
+Gherkins Language
+-------------------
+When,Given,Then,And,But
+
+Feature: Login into application
+
+Scenario: Login into application with valid credentials
+
+Given user is in the loginpage
+When user enter valid username and password
+And click on sigin
+Then successfully login should happen
+
+
+Given--- pre status of an application to complete that scenario will be mention
+When --- Actions performed by user to complete that scenario should be mentioned
+And --- will be used to concatenate two actions
+Then---Expected results
+
+Scenario: Login into application with invalid credentials
+
+Given user is in the loginpage 
+When user enter invalid name and password
+And clicks on sigin 
+Then Error msg should be displayed
+But should not login into application
+
+
+Feature: composemail
+
+Scenario : sucessfully composing mail
+
+Given user is in the composemail page
+When user Enter To,Cc,Bcc,Subject
+And clicks on send button
+Then sucessfully mail should be sent.
+
+
+
+Feature:Credit card payment
+
+Scenario: pay cc payment for minimum amount
+Scenario: pay cc payment for full amount
+Scenario: pay cc payment for other amount
+
+ 
+Scenario: pay cc payment of minimum amount
+
+Given user is in Cards Payments page
+When User choosen card credentials with Minimum amount after entering card details
+And click on Pay Button
+Then Payment should be succesful
+
+Given user is in the  Credit card payment page
+when user enter card details and minimum amount 
+And click on paymnet tab 
+Then receive the sucessfuly msd for minium payment
+
+
+
+Terminologies user in cucumber
+----------------------------------
+
+Scenario - is like testCase in TDD
+Feature: collection of scenarios
+Feature file: it is a file created to add scenarios for a feature
+Scenaio Outline:
+StepDefination File: it is file where we add defination for each step in the scenario.
+
+
+Environment setup for cucumber
+--------------------------------
+1. Cucumber plugin to eclipse
+2. create maven project
+3. Add Cucumber-java, cucumber-testng , testng dependencies
+
+
+
+
+1. Feature File
+2. StepDefinationFile
+3. TestRunner File
+
+
+TidyGherkins
+
+1. DataTable
+2. parameterization - DataTable,Excel
+2 a. Adding assertions
+3. tags
+4. hooks
+5. dryRun
+6. reports - Extent spark reports, pdf reports
+
+
+Jxls
+BufferredFile
+
+Apache POI jars
+
+1. Associate Excel jars to the maven project
+2.
+
+@Before
+@After
+@BeforeAll
+@AfterAll
+@BeforeStep
+@AfterStep
+
+
+Generate Extent spark reports
+Generate Extent pdf reports
+Assertions
+
+Design FrameWork for REST Api for GoogleMap
+
+oauth2-
+
+PropertiesFile in java
+
+	addPlacePayLoad();
+
+
+
+https://accounts.google.com/o/oauth2/auth?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fin.bookmyshow.com%3Fid%3Dauth22719&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm=&include_granted_scopes=true&client_id=990572338172-iibth2em4l86htv30eg1v44jia37fuo5.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fin.bookmyshow.com&fetch_basic_profile=true&gsiwebsdk=2
+
+
+
+
+
+Paypal
+client id--->ATajkEoB3EzdckTNBTh6mN685YzXCHPOysezohd60eWYDHo6TWdA3z0zV3A-OT7GSdyXM4CPMYZOWSWW
+secret id--->EE9qLbqY5n-2D7gWCkrBWSNPWLsJ5i8Rw24oDEFpD13JZ6PRtcEtn0UEluVF61BP17zNgWEc7cKTAshb
+
+access_token---->A21AAJlMy53ueVzscbmNoBBQ4sovk-ETYUPAmzFRRLTz6v18-KOZf0NBuU5nq80WFgvNGYjhOmcZNtUTq5BJIPox86a5sU05Q
+
+
+Rahul arora
+
+
+
+
+
+

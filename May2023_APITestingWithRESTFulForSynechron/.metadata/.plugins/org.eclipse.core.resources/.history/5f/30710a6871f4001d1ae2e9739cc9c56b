@@ -1,0 +1,24 @@
+package jsonParsingExample;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import io.restassured.path.json.JsonPath;
+
+public class JsonParsingExample {
+
+	@Test
+	public void jsonParsing(){
+		SoftAssert st=new SoftAssert();
+		JsonPath js = new JsonPath(Files.JsonFile());
+		
+		//1. print number of courses returned by API
+		int size = js.getInt("courses.size()");
+		System.out.println("Total courses return by api="+size);
+		st.assertEquals(size, 3,"comparing total number of courses returned by api");
+		
+		
+		st.assertAll();
+		
+	}
+}

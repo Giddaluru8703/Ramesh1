@@ -1,0 +1,49 @@
+package stepDefinations;
+
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
+import io.cucumber.java.BeforeStep;
+import io.cucumber.java.en.When;
+
+public class Loginsteps {
+	@BeforeAll
+	public static void beforeEntireExe(){
+		System.out.println("---------------------Start server----------------------");
+	}
+	@AfterAll
+	public static void afterEntireExe(){
+		System.out.println("---------------------Shutdown server----------------------");
+	}
+	@BeforeStep("@gmail")
+	public void beforeEachStep(){
+		System.out.println("----------TakeScreenshot-Before-------------------");
+	}
+	@AfterStep("@gmail")
+	public void afterEachStep(){
+		System.out.println("----------TakeScreenshot-After-------------------");
+	}
+	@Before("@gmail or @yahoo")
+	public void beforeEachScenario1(){
+		System.out.println("---OpenBrowser,url: www.gmail.com---");
+	}
+	@After("@gmail or @yahoo")
+	public void afterEachScenario1(){
+		System.out.println("---logout,CloseBrowser for gmail--");
+	}
+	/*@Before("@yahoo")
+	public void beforeEachScenario2(){
+		System.out.println("---OpenBrowser,url: www.yahoo.com---");
+	}
+	@After("@yahoo")
+	public void afterEachScenario2(){
+		System.out.println("---logout,CloseBrowser for yahoo---");
+	}*/
+	 @When("^user enter valid username as (.+) and password as (.+)$")
+	    public void user_enter_valid_username_as_and_password_as(String name, String password) throws Throwable {
+	      System.out.println(name+"------"+password);
+	    }
+
+}

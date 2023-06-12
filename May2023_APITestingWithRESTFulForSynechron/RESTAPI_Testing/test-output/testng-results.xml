@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1773" started-at="2023-05-18T03:54:03Z" finished-at="2023-05-18T03:54:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1773" started-at="2023-05-18T03:54:03Z" finished-at="2023-05-18T03:54:05Z">
+      <class name="pojoClassesExample.Addplace2_pojoclassForRequestBody">
+        <test-method status="PASS" signature="addplace()[pri:0, instance:pojoClassesExample.Addplace2_pojoclassForRequestBody@51565ec2]" name="addplace" duration-ms="1751" started-at="2023-05-18T03:54:03Z" finished-at="2023-05-18T03:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addplace -->
+      </class> <!-- pojoClassesExample.Addplace2_pojoclassForRequestBody -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

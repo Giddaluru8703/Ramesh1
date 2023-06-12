@@ -1,0 +1,35 @@
+developer.paypal.com
+
+1. create paypal business account
+2. Login with these credentials
+3.click on developer button
+4. go to APIs and SDKs --->REST APIs
+5. click on Authentication in the left pane
+6. 
+
+
+To get client id
+1. go to srinivas (account name)
+2. click on myaccount
+3. click on API credentials
+4. copy client id --->ASEwOhVc6zr8rPtNLAiED7VIEHmTrUkQfjv0m2b4fQnxaE2ArCZKH8lkdWCMZgQxFelP0tWmimjHrvRV
+5. copy secret id---->ECPjkA6Kv7BW8qGZT8pNP1cTdtUGGIcv72xQFcDfviL6DEMEtVkdvNYqOEnv_nirTxxUHJRyZZUfrgzK
+
+
+To generate access token
+
+Autherization token
+
+A21AAIabd_csPAR-JzqreYFkh9j7ciYuAEoT-vzvb0U8Nu6eMmVdv5C96FPkuaFzKfd7cevNfuSSRfWsr1-xMF5w0OXUbrhBQ
+A21AAKLoy-Jpf8N-fciscYY449EGfjJiI3LVQFNlekunjMCP5O0IimOlRmyR3UscViKMyLGXBKvZ55HmrLQOjB_v93DyLGnew
+
+paypal app id:APP-80W284485P519543T
+
+sandbox account:sb-px994724338923@personal.example.com
+Access tocken--->access_token$sandbox$h7wcg3ywt4hjzpwd$696464cb03fa7c86e3eed7b057f707d3
+
+{"consumer":{"accountNumber":1181198218909172527,"merchantId":"5KW8F2FXKX5HA"},"merchant":{"accountNumber":1659371090107732880,"merchantId":"2J6QB8YJQSJRJ"},"apiCaller":{"clientId":"AdtlNBDhgmQWi2xk6edqJVKklPFyDWxtyKuXuyVT-OgdnnKpAVsbKHgvqHHP","appId":"APP-6DV794347V142302B","payerId":"2J6QB8YJQSJRJ","accountNumber":"1659371090107732880"},"scopes":["https://api-m.paypal.com/v1/subscription/.*","https://uri.paypal.com/services/subscription","openid"]}
+
+
+AccessToken
+A21AAInwzFQsDbcv6qnJ4XdpSCBCvR0lqU9rjpPZ2hx2BJ0ZUQ8dPHQH_-1_i_TBe_z-qjC458Wl2rf-6RbEM15xgs0HCV2Hw

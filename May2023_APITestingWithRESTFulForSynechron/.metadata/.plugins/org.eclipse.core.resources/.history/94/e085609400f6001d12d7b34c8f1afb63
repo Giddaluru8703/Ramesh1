@@ -1,0 +1,4 @@
+#Global variables
+baseuri=https://rahulshettyacademy.com
+resourceForpost=/maps/api/place/add/json
+key=qaclick123

@@ -1,0 +1,29 @@
+package payLoads;
+
+import java.util.ArrayList;
+
+import pojoClasses.AddPlace_RequestPojo;
+import pojoClasses.Location;
+
+public class PayLoad {
+	public static AddPlace_RequestPojo pcr;
+	
+	public static void addPlacePayLoad(){
+		 pcr=new AddPlace_RequestPojo();
+		Location l=new Location();
+		l.setLat(-38.383494);
+		l.setLng(33.427362);
+		pcr.setLocation(l);
+		pcr.setAccuracy(50);
+		pcr.setName("SKN Tech Solutions");
+		pcr.setPhone_number("9972278770");
+		pcr.setAddress("88,jayanagar ,Bangalore");
+		ArrayList<String> ar=new ArrayList<String>();
+		ar.add("IT solution");
+		ar.add("Service providers");
+		pcr.setTypes(ar);
+		pcr.setWebsite("SKNtechsolutios.org");
+		pcr.setLanguage("English");
+		
+	}
+}

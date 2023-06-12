@@ -1,0 +1,13 @@
+package stepDefinations;
+
+import io.cucumber.java.Before;
+import testBase.TestBase;
+
+public class StepDefinations extends TestBase{
+
+	@Before
+	public void beforeEachScenario() throws Throwable{
+		setUp();
+		tearDown();
+	}
+}

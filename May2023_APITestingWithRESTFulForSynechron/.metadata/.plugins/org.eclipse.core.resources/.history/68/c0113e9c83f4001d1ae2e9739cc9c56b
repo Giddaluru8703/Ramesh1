@@ -1,0 +1,10 @@
+package pojoClassesExample;
+
+public class Pojoclass2 {
+	
+	private Location location;
+	private int accuracy;
+	private String name;
+	private 
+
+}

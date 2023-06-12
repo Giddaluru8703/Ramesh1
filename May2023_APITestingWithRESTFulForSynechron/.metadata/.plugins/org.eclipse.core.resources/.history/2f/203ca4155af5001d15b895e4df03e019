@@ -1,0 +1,16 @@
+package javaConcepts;
+
+import xls.ShineXlsReader;
+
+public class WorkwithExcel {
+
+	public static void main(String[] args) {
+		
+		ShineXlsReader xls=new ShineXlsReader("C:\\SeleniumWorkSpaces\\May2023_APITestingWithRESTFulForSynechron\\Cucumber_APITesting\\TestData.xlsx");
+		int rowCount = xls.getRowCount("Sheet1");
+		int columnCount = xls.getColumnCount("Sheet1");
+		System.out.println("Row count ="+rowCount);
+		System.out.println("col count ="+columnCount);
+	}
+
+}

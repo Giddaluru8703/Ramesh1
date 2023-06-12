@@ -1,0 +1,12 @@
+package javaConcepts;
+
+import java.util.Properties;
+
+
+
+public class WorkWithProperties {
+
+	public static void main(String args[]){
+		Properties prop=new Properties();
+	}
+}

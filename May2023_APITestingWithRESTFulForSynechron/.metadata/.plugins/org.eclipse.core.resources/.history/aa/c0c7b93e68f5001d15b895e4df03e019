@@ -1,0 +1,18 @@
+
+Feature: Login into yahoo
+
+Scenario Outline: Login into yahoo with valid credentials1
+
+Given user is in the login page
+When user enter valid username as <Name> and password as <password>
+And clicks on signin button
+Then successfully login should happen
+
+Examples:
+|Name|password|
+|Name1|password1|
+|Name2|password2|
+|Name3|password3|
+|Name4|password4|
+|Name5|password5|
+

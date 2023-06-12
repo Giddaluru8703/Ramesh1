@@ -1,0 +1,11 @@
+package stepDefinations;
+
+import io.cucumber.java.en.Given;
+
+public class MystepsDefinations {
+	@Given("^user is in the login page$")
+	public void user_is_in_the_login_page(){
+		//selenium code to login
+		System.out.println("user is in the login page for gmail");
+	}
+}

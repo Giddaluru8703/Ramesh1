@@ -1,0 +1,11 @@
+package stepDefinations;
+
+import io.cucumber.java.en.When;
+
+public class Loginsteps {
+	 @When("^user enter valid username as (.+) and password as (.+)$")
+	    public void user_enter_valid_username_as_and_password_as(String name, String password) throws Throwable {
+	      System.out.println(name+"------"+password);
+	    }
+
+}

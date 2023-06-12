@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="14" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3565" started-at="2023-05-19T04:17:17Z" finished-at="2023-05-19T04:17:21Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="3565" started-at="2023-05-19T04:17:17Z" finished-at="2023-05-19T04:17:21Z">
+      <class name="testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="setUpClass" is-config="true" duration-ms="545" started-at="2023-05-19T04:17:17Z" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4afd21c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="169" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into gmail with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="8" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into gmail with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="31" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12] but found [10]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at stepDefinations.Loginsteps.user_enter_valid_username_as_and_password_as(Loginsteps.java:49)
+at ✽.user enter valid username as Name1 and password as password1(file:///C:/SeleniumWorkSpaces/May2023_APITestingWithRESTFulForSynechron/Cucumber_APITesting/src/test/java/features/LoginParam.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="6" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12] but found [10]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at stepDefinations.Loginsteps.user_enter_valid_username_as_and_password_as(Loginsteps.java:49)
+at ✽.user enter valid username as Name2 and password as password2(file:///C:/SeleniumWorkSpaces/May2023_APITestingWithRESTFulForSynechron/Cucumber_APITesting/src/test/java/features/LoginParam.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="5" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12] but found [10]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at stepDefinations.Loginsteps.user_enter_valid_username_as_and_password_as(Loginsteps.java:49)
+at ✽.user enter valid username as Name3 and password as password3(file:///C:/SeleniumWorkSpaces/May2023_APITestingWithRESTFulForSynechron/Cucumber_APITesting/src/test/java/features/LoginParam.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="4" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12] but found [10]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at stepDefinations.Loginsteps.user_enter_valid_username_as_and_password_as(Loginsteps.java:49)
+at ✽.user enter valid username as Name4 and password as password4(file:///C:/SeleniumWorkSpaces/May2023_APITestingWithRESTFulForSynechron/Cucumber_APITesting/src/test/java/features/LoginParam.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="5" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12] but found [10]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at stepDefinations.Loginsteps.user_enter_valid_username_as_and_password_as(Loginsteps.java:49)
+at ✽.user enter valid username as Name5 and password as password5(file:///C:/SeleniumWorkSpaces/May2023_APITestingWithRESTFulForSynechron/Cucumber_APITesting/src/test/java/features/LoginParam.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="493" started-at="2023-05-19T04:17:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="35" started-at="2023-05-19T04:17:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="24" started-at="2023-05-19T04:17:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="25" started-at="2023-05-19T04:17:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="21" started-at="2023-05-19T04:17:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="33" started-at="2023-05-19T04:17:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into yahoo with valid credentials1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into yahoo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71318ec4]" name="runScenario" duration-ms="15" started-at="2023-05-19T04:17:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T04:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create an account in timesjobs portal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create an account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@71318ec4]" name="tearDownClass" is-config="true" duration-ms="2112" started-at="2023-05-19T04:17:19Z" finished-at="2023-05-19T04:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
